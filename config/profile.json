@@ -1,0 +1,122 @@
+{
+  "name": "Alex Morgan",
+  "contact": {
+    "phone": "(555) 123-4567",
+    "email": "alex.morgan@example.com",
+    "website": "alexmorgan.dev",
+    "location": "Austin, TX"
+  },
+  "education": {
+    "degree": "Computer Science, B.S.",
+    "school": "State University",
+    "dates": "May 2020 - May 2023"
+  },
+  "experience": [
+    {
+      "id": "acme",
+      "title": "Software Engineer",
+      "company": "Acme Analytics",
+      "dates": "Apr 2025 - Apr 2026",
+      "bullets": [
+        {
+          "id": "acme-ui",
+          "text": "Built and shipped customer-facing UI features in JavaScript, collaborating with design and product to deliver responsive, accessible components used across the company's SaaS platform.",
+          "tags": ["javascript", "vue.js", "frontend", "saas", "ui", "accessibility", "collaboration"]
+        },
+        {
+          "id": "acme-agent",
+          "text": "Designed and implemented a production AI agent in Python using LangGraph (StateGraph, ToolNode, ReAct pattern) with conditional branching and parallel tool execution to automate in-app guide creation for end users.",
+          "tags": ["python", "langgraph", "ai", "agent", "llm", "tool-calling", "backend"]
+        },
+        {
+          "id": "acme-mau",
+          "text": "Shipped the agent to production, reaching 5,000 monthly active users within the first month of launch. Iterated on agent reliability and edge case handling based on real user behavior.",
+          "tags": ["production", "metrics", "iteration", "reliability"]
+        },
+        {
+          "id": "acme-streaming",
+          "text": "Integrated the agent with the frontend via streaming APIs, giving users real-time visibility into agent progress and reducing perceived latency. Owned the full integration from backend endpoint to UI rendering.",
+          "tags": ["streaming", "api", "frontend", "backend", "fullstack", "ownership", "real-time"]
+        }
+      ]
+    },
+    {
+      "id": "vertex",
+      "title": "Software Engineer",
+      "company": "Vertex Systems",
+      "dates": "Jun 2023 - Apr 2025",
+      "bullets": [
+        {
+          "id": "vertex-frontend",
+          "text": "Developed consumer-facing geospatial web applications in React, Redux, and TypeScript for enterprise customers, including interactive map interfaces and real-time data overlays.",
+          "tags": ["react", "redux", "typescript", "frontend", "geospatial", "consumer-facing"]
+        },
+        {
+          "id": "vertex-backend",
+          "text": "Built RESTful APIs and backend services in Node.js, Java, and Python, containerized with Docker and deployed via Kubernetes on AWS. Designed schema and wrote migrations for PostgreSQL databases.",
+          "tags": ["node.js", "java", "python", "rest", "api", "docker", "kubernetes", "aws", "postgresql", "database", "schema"]
+        },
+        {
+          "id": "vertex-rabbitmq",
+          "text": "Led adoption of RabbitMQ for live geospatial data streaming, using web workers and Protocol Buffers to reduce latency and improve throughput across real-time data pipelines powering operational dashboards.",
+          "tags": ["rabbitmq", "streaming", "real-time", "data-pipeline", "protocol-buffers", "performance"]
+        },
+        {
+          "id": "vertex-adrs",
+          "text": "Authored architecture decision records to document system design choices, improving team alignment, onboarding velocity, and long-term maintainability of the codebase.",
+          "tags": ["documentation", "architecture", "team", "onboarding", "maintainability"]
+        }
+      ]
+    },
+    {
+      "id": "globex",
+      "title": "Software Engineer Intern",
+      "company": "Globex Logistics",
+      "dates": "May 2022 - Aug 2022",
+      "bullets": [
+        {
+          "id": "globex-main",
+          "text": "Built user-facing features in JavaScript and Angular, integrated with .NET RESTful APIs, and wrote SQL scripts and stored procedures in MySQL for data retrieval and reporting.",
+          "tags": ["javascript", "angular", ".net", "rest", "api", "sql", "mysql", "stored-procedures"]
+        }
+      ]
+    },
+    {
+      "id": "healthco",
+      "title": "Software Engineer Intern",
+      "company": "HealthCo",
+      "dates": "May 2021 - Aug 2021",
+      "bullets": [
+        {
+          "id": "healthco-main",
+          "text": "Shipped user-facing features in TypeScript and Vue.js with TDD (Jest, Cypress), and built endpoints in .NET backend services backed by MySQL.",
+          "tags": ["typescript", "vue.js", "tdd", "jest", "cypress", "testing", ".net", "mysql"]
+        }
+      ]
+    },
+    {
+      "id": "military",
+      "title": "Supply and Logistics Management",
+      "company": "U.S. Armed Forces",
+      "dates": "Mar 2015 - Jun 2020",
+      "bullets": [
+        {
+          "id": "military-main",
+          "text": "Managed shift operations in an aircraft maintenance unit, coordinating logistics for 20+ aircraft, aircrew, and ground technicians in a high-tempo operational environment.",
+          "tags": ["leadership", "operations", "logistics", "military"]
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python", "Java", "SQL"],
+    "frontend": ["React", "Redux", "Vue.js", "Next.js", "Angular", "RxJS"],
+    "backend": ["Node.js", "Python", "RESTful APIs", "RabbitMQ", "Protocol Buffers", ".NET"],
+    "cloud_devops": ["AWS", "Azure", "Docker", "Kubernetes", "CI/CD", "GitHub Actions", "Jenkins", "GitLab CI", "Git"],
+    "ai_ml": ["LangGraph", "LLM tool-calling", "Agent Design", "MCP"],
+    "databases": ["PostgreSQL", "MySQL"],
+    "testing": ["Jest", "Cypress", "Playwright", "TDD"]
+  },
+  "include_internships": true,
+  "always_include": ["acme", "vertex", "military"]
+}
